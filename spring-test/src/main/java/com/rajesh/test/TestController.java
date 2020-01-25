@@ -29,6 +29,6 @@ public class TestController {
 	
 	@GetMapping("greeting")
 	public String greetPeople() {
-		return description + dbSettings.getConnection() + dbSettings.getHost() + dbSettings.getPort();
+		return dbSettings.getConnection() + dbSettings.getHost() + dbSettings.getPort();
 	}
 }

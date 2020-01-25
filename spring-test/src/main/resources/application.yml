@@ -1,0 +1,15 @@
+server.port: 8081
+
+app:
+    name: "My YAML Application"
+    description: "Welcome to ${app.name}"
+
+my:
+    greeting: "Hello World"
+    list:
+        values : "one, two, theree"
+    marks: "{maths:25,physics:24,chemistry:23}"
+db:
+    connection: "{connectionStting:'http://localhost',userName: 'foo', password: 'pass'}"
+    host: 127.0.0.1
+    port: 1200

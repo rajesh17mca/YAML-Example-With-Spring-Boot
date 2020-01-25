@@ -1,4 +1,4 @@
-package com.rajesh.test;
+ package com.rajesh.test;
 
 import java.util.List;
 import java.util.Map;
@@ -27,6 +27,6 @@ public class TestController {
 	
 	@GetMapping("greeting")
 	public String greetPeople() {
-		return description + dbSettings.getConnection() + dbSettings.getHost()+dbSettings.getPort();
+		return description + dbSettings.getConnection() + dbSettings.getHost() + dbSettings.getPort();
 	}
 }

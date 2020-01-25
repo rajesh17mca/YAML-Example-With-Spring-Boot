@@ -11,10 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 	@Value("${my.greeting: Apple Greeting}")
+	
 	String greetingFromConfig;
 	
 	@Value("${app.description}")
 	String description;
+	
 	
 	@Value("Apple Greeting")
 	String staticGreetingCard;
